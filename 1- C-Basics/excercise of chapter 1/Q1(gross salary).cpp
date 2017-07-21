@@ -8,19 +8,19 @@ his gross salary.*/
 int main()
 {
 	int salary;
-	float rentallowance, dearnessallowance,grosssalary;
+	float rentAllowance, dearnessAllowance,grossSalary;
 	
-	printf("enter ramesh basic salary\n");
+	printf("Enter Ramesh's basic salary: ");
 	scanf("%d", &salary);
 	
-	rentallowance= salary*0.2;
-	printf("\nramesh rent Allowance is &f", rentallowance);
+	rentAllowance= salary*0.2;
+	printf("\nramesh rent Allowance is &f", rentAllowance);
 	
-	dearnessallowance= salary*0.4;
-	printf("\nramesh dearness Allowance is %f", dearnessallowance);
+	dearnessAllowance= salary*0.4;
+	printf("\nramesh dearness Allowance is %f", dearnessAllowance);
 	
-	grosssalary= (salary-rentallowance)-dearnessallowance;
-	printf("\nramesh  gross salary is %f", grosssalary);
-	
+	grossSalary= (salary-rentAllowance)-dearnessAllowance; //This formula is incorrect
+	printf("\nramesh  gross salary is %f", grossSalary); 
+	//Run program again and check the output carefully again.
 	return 0;
 }
