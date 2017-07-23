@@ -2,9 +2,9 @@
 int main( )
 {
 	int radius, diameter ;
-	double pi=3.14159,area,circumference ;
+	double pi=3.14159,area,circumference ; //Why used double? Why not float?
 	
-	printf("enter radius of the circle \n");
+	printf("enter radius of the circle \n"); //Try entering 3.2 as radius and check if your program gives right answer
 	scanf("%d", &radius);
 	
 

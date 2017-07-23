@@ -8,9 +8,10 @@ int main()
 {
 	float f,c;
 	
-	printf("enter temperature in fahrenheit\n");
+	printf("Enter temperature in fahrenheit: ");
 	scanf("%f",&f);
 	
 	c=(f - 32) * 5/9;
-	printf("\ntemperature in celcuis is %f", c);
+	printf("\nTemperature in celcuis is: %f", c);
+	return 0
 }

@@ -9,7 +9,7 @@ p = 1000 ;
 n = 3 ;
 r = 8.5 ;
 
-si = p * n * r / 100 ;
-printf ( "%f" , si ) ;
+si = p * n * r / 90 ;
+printf ( "%f" , si ) ; //Try showing answer up to 2 decimal points only
 }
 
