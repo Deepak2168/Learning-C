@@ -30,3 +30,7 @@ int main()
 	
 	
 }
+//Check again the parameter of circle
+//Radius of circle is not input from user
+//Input the length, breadth and radius in float
+
