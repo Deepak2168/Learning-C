@@ -32,3 +32,7 @@ int main()
 		printf("\nOriginal & reverse number is equal in sum and the sum is %d : ", sum1);
 	}
 }
+//Question is asking:
+//determine whether the original and reversed numbers are equal or not
+
+//Questio is not talking about the individual digits' sum

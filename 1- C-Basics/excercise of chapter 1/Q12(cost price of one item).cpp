@@ -16,3 +16,4 @@ int main()
 	
 	printf("Cost price of one item is Rs: %0.2f", (CostPrice/15));
 }
+//Checked and no comments

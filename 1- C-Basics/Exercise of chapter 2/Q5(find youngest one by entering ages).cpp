@@ -25,3 +25,6 @@ int main()
 	    
 	return 0;
 }
+
+//Check your program for following ages of these three:
+// Ram = 26, Shyam = 27, Ajay = 25

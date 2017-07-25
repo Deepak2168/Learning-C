@@ -15,3 +15,8 @@ int main()
 	
 	return 0;
 }
+
+//Try entering a number = 5
+//The code will give the absolute answer as: -5
+// But absolute value of 5 is 5
+// Check again

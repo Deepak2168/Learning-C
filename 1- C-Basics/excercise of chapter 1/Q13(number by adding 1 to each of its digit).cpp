@@ -26,3 +26,5 @@ int main()
 	printf("%d%d%d%d%d", d1,d2,d3,d4,d5);
 	
 }
+//Try entering 99999 and the expected output should be 00000
+//But your program doesn't give the right answers, all other cases are fine
