@@ -7,7 +7,9 @@ in meters, feet, inches and centimeters*/
 #include<conio.h>
 int main()
 {
-	int Distance, Meters, feet, inches, centimeters ; //Be consistant in naming variable's names. As a convention, variable names should be in small.
+	int Distance, Meters, feet, inches, centimeters ; 
+	//Be consistant in naming variable's names. 
+	//As a convention, variable names should be in small.
 	
 	printf("enter the distance b/w two cities\n");
 	scanf("%d", &Distance);

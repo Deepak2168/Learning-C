@@ -1,3 +1,8 @@
+/*
+ Write a program that reads in two integers 
+ and determines and prints if the first is a 
+ multiple of the second. 
+*/
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -17,3 +22,4 @@ int main()
 	
 	return 0;
 }
+//checked and no comments

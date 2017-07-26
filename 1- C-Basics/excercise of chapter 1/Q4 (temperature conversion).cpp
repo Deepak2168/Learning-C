@@ -15,3 +15,5 @@ int main()
 	printf("\nTemperature in celcuis is: %f", c);
 	return 0
 }
+
+//Checked and no comments

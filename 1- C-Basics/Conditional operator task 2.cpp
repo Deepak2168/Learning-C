@@ -1,3 +1,9 @@
+/*
+	Write a program that reads an integer 
+	and determines and prints whether it 
+	is odd or even. 
+ 
+*/
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -18,3 +24,4 @@ int main()
 	
 	return 0;
 }
+//Checked and no comments

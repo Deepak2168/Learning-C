@@ -31,3 +31,5 @@ int main()
 	
 	
 }
+//See you have already done one program that seperates the five digits,
+//Just some those variables and you will get the sum of these digits.

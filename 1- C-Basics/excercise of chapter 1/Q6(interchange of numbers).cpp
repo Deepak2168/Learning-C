@@ -20,3 +20,5 @@ int main()
     printf("\nnumber at location of D after interchanbge is %d", b);
     
 }
+//Kindly Use the same variables as asked in question, to clear up the things
+//Use variables: C, D and temp
