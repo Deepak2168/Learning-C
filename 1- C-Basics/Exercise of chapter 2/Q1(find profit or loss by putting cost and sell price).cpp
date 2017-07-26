@@ -25,3 +25,6 @@ int main()
 	}
 	return 0;
 }
+//Write code for the case when selling price is equal to buying price
+//Write loss amount in positive - not in negative.
+//Congrats! on loss, seriously?

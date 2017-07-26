@@ -24,3 +24,4 @@ int main()
 	printf("%d %d %d %d %d",d5,d4,d3,d2,d1);
 	
 }
+//Chcked and have no comments

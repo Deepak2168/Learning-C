@@ -24,3 +24,5 @@ int main()
 	
 	printf("\nAmount still remainig is : %d", (((amount%100)%50)%10));
 }
+
+//Good! Checked and no comments

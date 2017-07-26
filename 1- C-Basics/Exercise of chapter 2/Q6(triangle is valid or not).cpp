@@ -25,3 +25,5 @@ int main()
 	 	printf("\nthis triangle is invalid");
 	  } 
 }
+//Try entering the angles' values as:
+//A1 = 45.2, A2 = 45.2 and A3 = 90.2

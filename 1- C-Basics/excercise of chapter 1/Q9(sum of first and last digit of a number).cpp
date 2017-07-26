@@ -25,3 +25,4 @@ int main()
 	printf("Sum of 1st and last digit is : %d",sum)  ;
 
 }
+//Checked and have no comments

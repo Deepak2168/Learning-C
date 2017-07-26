@@ -1,3 +1,8 @@
+/*
+Write a program that reads in five integers 
+and then determines and prints the largest 
+and the smallest integers in the group. 
+*/
 #include<stdio.h>
 #include<conio.h>
 int main()
