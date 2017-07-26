@@ -9,12 +9,13 @@ subject is 100.*/
 #include<conio.h>
 int main()
 {
- float s1, s2,s3,s4,s5, Aggregate, Percentage;
+ float s1, s2,s3,s4,s5, Aggregate;
+ int Percentage;
  
  printf("enter your subject marks\n");
  scanf("%f %f %f %f %f", &s1, &s2, &s3, &s4, &s5);
 
 Percentage =(s1+s2+s3+s4+s5)*100/500;
-printf("your total percentage is %f", Percentage); //show percentage with no decimal dots
+printf("your total percentage is %d", Percentage); //show percentage with no decimal dots
 
 }

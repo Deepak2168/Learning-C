@@ -7,20 +7,20 @@ his gross salary.*/
 #include<conio.h>
 int main()
 {
-	int salary;
-	float rentAllowance, dearnessAllowance,grossSalary;
+	int Salary;
+	float RentAllowance, DearnessAllowance,GrossSalary;
 	
 	printf("Enter Ramesh's basic salary: ");
-	scanf("%d", &salary);
+	scanf("%d", &Salary);
 	
-	rentAllowance= salary*0.2;
-	printf("\nramesh rent Allowance is &f", rentAllowance);
+	RentAllowance= Salary*0.2;
+	printf("\nRamesh Rent Allowance is %0.2f", RentAllowance);
 	
-	dearnessAllowance= salary*0.4;
-	printf("\nramesh dearness Allowance is %f", dearnessAllowance);
+	DearnessAllowance= Salary*0.4;
+	printf("\nRamesh Dearness Allowance is %0.2f", DearnessAllowance);
 	
-	grossSalary= (salary-rentAllowance)-dearnessAllowance; //This formula is incorrect
-	printf("\nramesh  gross salary is %f", grossSalary); 
+	GrossSalary= (Salary+RentAllowance)+DearnessAllowance; //This formula is incorrect
+	printf("\nRamesh  Gross salary is %0.2f", GrossSalary); 
 	//Run program again and check the output carefully again.
 	return 0;
 }
