@@ -9,9 +9,16 @@ int main()
 	printf("Enter any number : ");
 	scanf("%d", &num);
 	
-	Absolute=num*(-1);
+	if(num<0)
+	{
+		Absolute = (-1) * num;
+	}
+	else
+	{
+		Absolute = num;
+	}
 	
-	printf("\nThe absolute value of that number is %d :" , Absolute);
+	printf("\nThe absolute value of this number is  : %d" , Absolute);
 	
 	return 0;
 }

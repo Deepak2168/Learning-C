@@ -14,13 +14,13 @@ int main()
 	scanf("%d", &salary);
 	
 	rentAllowance= salary*0.2;
-	printf("\nramesh rent Allowance is &f", rentAllowance);
+	printf("\nramesh rent Allowance is %.2f", rentAllowance);
 	
 	dearnessAllowance= salary*0.4;
-	printf("\nramesh dearness Allowance is %f", dearnessAllowance);
+	printf("\nramesh dearness Allowance is %.2f", dearnessAllowance);
 	
-	grossSalary= (salary-rentAllowance)-dearnessAllowance; //This formula is incorrect
-	printf("\nramesh  gross salary is %f", grossSalary); 
+	grossSalary= salary + rentAllowance + dearnessAllowance; //This formula is incorrect
+	printf("\nramesh  gross salary is %.2f", grossSalary); 
 	//Run program again and check the output carefully again.
 	return 0;
 }

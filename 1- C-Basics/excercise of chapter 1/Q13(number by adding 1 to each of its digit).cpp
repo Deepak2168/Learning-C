@@ -23,6 +23,7 @@ int main()
 	e=d/10;
 	d1=(d%10)+1;
 	
+	
 	printf("%d%d%d%d%d", d1,d2,d3,d4,d5);
 	
 }

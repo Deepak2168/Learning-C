@@ -10,6 +10,6 @@ n = 3 ;
 r = 8.5 ;
 
 si = p * n * r / 90 ;
-printf ( "%f" , si ) ; //Try showing answer up to 2 decimal points only
+printf ( "%.2f" , si ) ; //Try showing answer up to 2 decimal points only
 }
 

@@ -21,7 +21,11 @@ int main()
 	}
 	if(P<0)
 	{
-		printf("\nCongrats! you have loss on this item is Rs: %d", P);
+		printf("\nCongrats! you have loss on this item is Rs: %d", P*(-1));
+	}
+	if(SP==CP)
+	{
+		printf("\nYou have no profit and no lost..!");
 	}
 	return 0;
 }

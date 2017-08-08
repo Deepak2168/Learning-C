@@ -7,8 +7,8 @@ is equal to 180 degrees.*/
 #include<conio.h>
 int main()
 {
-	float A1,A2,A3;
-	int sum;
+	float A1,A2,A3,sum;
+	
 	
 	
 	printf("Enter value of 1st, 2nd and 3rd angle\n");
@@ -18,7 +18,7 @@ int main()
 	
 	if(sum==180)
       {
-	    printf("\nThis triangle is valid and the sum of three angles is %d :" , sum);	
+	    printf("\nThis triangle is valid and the sum of three angles is %f :" , sum);	
       }
      else
 	 {

@@ -8,11 +8,12 @@ circumference of the circle.*/
 #include<conio.h>
 int main()
 {
-	int l,area1,b,perimeter2,perimeter1;
-	float  area2, pi=3.14159;
+	int area1 , perimeter2 , perimeter1;
+	
+	float  area2 , pi=3.14159 , l , b , r ;
 	
 	printf("enter length and breadth of rectangle and circle\n");
-	scanf("%d %d", &l,&b);
+	scanf("%f %f", &l,&b);
 	
 	area1= l*b;
 	printf("\narea of rectangle is %d", area1);

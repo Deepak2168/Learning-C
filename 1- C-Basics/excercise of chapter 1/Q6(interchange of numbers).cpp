@@ -7,17 +7,17 @@ contents of C and D.*/
 #include<conio.h>
 int main()
 {
-	int a,b,c;
+	int C,D,temp;
 	
 	printf("enter two numbers at location C and E\n");
-	scanf("%d %d", &a,&b);
+	scanf("%d %d", &C,&D);
 	
-    c=a;
-    a=b;
-    b=c;
+    temp=C;
+    C=D;
+    D=temp;
     
-    printf("number at location of C after interchanbge is %d", a);
-    printf("\nnumber at location of D after interchanbge is %d", b);
+    printf("number at location of C after interchanbge is %d", C );
+    printf("\nnumber at location of D after interchanbge is %d", D);
     
 }
 //Kindly Use the same variables as asked in question, to clear up the things

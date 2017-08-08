@@ -7,7 +7,7 @@ in meters, feet, inches and centimeters*/
 #include<conio.h>
 int main()
 {
-	int Distance, Meters, feet, inches, centimeters ; 
+	int Distance, M , f, i, cm ; 
 	//Be consistant in naming variable's names. 
 	//As a convention, variable names should be in small.
 	
@@ -16,17 +16,17 @@ int main()
 	
 	printf(" \ndistance b/w two cities is %d in kilometers", Distance);
 	
-	Meters= Distance *1000;
-	printf(" \ndistance b/w two cities is %d in meters", Meters);
+	M= Distance *1000;
+	printf(" \ndistance b/w two cities is %d in meters", M);
 	
-	feet= Distance*3280;
-	printf(" \ndistance b/w two cities is %d in feets", feet);
+	f= Distance*3280;
+	printf(" \ndistance b/w two cities is %d in feets", f);
 	
-	inches= Distance*39370;
-	printf(" \ndistance b/w two cities is %d in inches", inches);\
+	i= Distance*39370;
+	printf(" \ndistance b/w two cities is %d in inches", i);\
 	
-	centimeters=Distance*10000;
-	printf(" \ndistance b/w two cities is %d in Centimeters", centimeters);
+	cm=Distance*10000;
+	printf(" \ndistance b/w two cities is %d in Centimeters", cm );
 	
 	
 

@@ -8,20 +8,26 @@ int main()
 {
 	int RamAge, ShyamAge, AjayAge;
 	
-	printf("Enter age of Ram, Shyam and Ajay\n");
-	scanf("%d%d%d", &RamAge,&ShyamAge,&AjayAge);
+	printf("Enter age of Ram and Ajay\n");
+	scanf("%d%d", &RamAge,&AjayAge);
+	printf("Enter shyam Age\n");
+	scanf("%d", &ShyamAge);
 	
-	if(RamAge>ShyamAge)
+	if(RamAge>AjayAge && ShyamAge>AjayAge)
 	{
-		if(ShyamAge>AjayAge)
-		{
-			printf("\nYoungest one Ajay and his age is %d :", AjayAge);
-		}
-		else
-		   printf("\nyoungest one is Shyam and his age is %d :", ShyamAge);
+    	printf("\nYoungest one is Ajay and his age is : %d", AjayAge);
+    }
+    if(RamAge>ShyamAge && AjayAge>ShyamAge)
+    {
+    	printf("\nYoungest one is Shyam and his age is : %d ", ShyamAge);
 	}
-	else
-	    printf("\nYoungest one is ram and his age is %d :", RamAge);
+	if(ShyamAge>RamAge && AjayAge>RamAge)
+	{
+		printf("\nYoungest one is Ram and his age is : %d", RamAge);
+	}
+    
+		
+
 	    
 	return 0;
 }
