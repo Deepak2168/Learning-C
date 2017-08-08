@@ -9,7 +9,8 @@ subject is 100.*/
 #include<conio.h>
 int main()
 {
- float s1, s2,s3,s4,s5, Aggregate, Percentage;
+ float s1, s2,s3,s4,s5, Aggregate;
+ int Percentage;
  
  printf("enter your subject marks\n");
  scanf("%f %f %f %f %f", &s1, &s2, &s3, &s4, &s5);
